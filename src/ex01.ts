@@ -1,4 +1,7 @@
 // exercicio1.ts
+// Faça: rode, depois descomente a última linha e leia o erro que aparece. Ele vai reclamar que 'atrasada' não é um dos valores permitidos — é isso que o union type garante: erro de digitação vira erro de compilação, não bug silencioso em produção.
+//Você entendeu esse exercício quando: conseguir explicar em uma frase por que status: string (sem union) seria pior que status: StatusTarefa.
+
 type StatusTarefa = 'pendente' | 'em-andamento' | 'concluida';
 
 interface Tarefa {
