@@ -25,3 +25,5 @@ async function main() {
 }
 
 main();
+
+// protected é literalmente proteger alguma propriedade de uma classe para que ela não acessada fora do escopo da superclasse e das subclasses. Serve para impedir que a propriedade seja chamada direto no main de forma errada.a
